@@ -25,8 +25,8 @@
 
     <!-- FavIcon -->
     <link rel="icon" type="image/png" href="assets/images/icon.png">
-    <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script src="http://code.tidio.co/hhjfu1aztfpvopinwpbsvucfpl1v2geb.js" async></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://code.tidio.co/hhjfu1aztfpvopinwpbsvucfpl1v2geb.js" async></script>
 </head>
 <body itemscope>
 <main>
