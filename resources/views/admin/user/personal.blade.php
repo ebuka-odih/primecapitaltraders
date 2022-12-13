@@ -82,6 +82,24 @@
             </table>
 
             <!-- END Latest Friends -->
+            @if(session()->has('defund'))
+                <div class="alert alert-success">
+                    {{ session()->get('defund') }}
+                </div>
+            @endif
+            <form action="{{ route('admin.defund') }}" method="POST">
+                @csrf
+                <input type="hidden" value="{{ $user->id }}" name="user_id">
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input type="text" name="amount" class="form-control" >
+                    </div>
+                    <div class="col-lg-6">
+                        <button class="btn btn-primary">Defund Account</button>
+                    </div>
+                </div>
+            </form>
 
 
             <!-- END Latest Projects -->

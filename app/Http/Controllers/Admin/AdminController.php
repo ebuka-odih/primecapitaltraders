@@ -39,4 +39,15 @@ class AdminController extends Controller
         User::find(auth()->user()->id)->update(['password'=> Hash::make($request->new_password)]);
         return redirect()->back()->with('success', "Password Changed Successfully");
     }
+
+    public function defund(Request $request)
+    {
+        $id = $request->user_id;
+        $user = User::findOrFail($id);
+        $user->balance -= $request->amount;
+        $user->save();
+        return redirect()->back()->with('defund', "account defunded successfully");
+    }
+
+
 }
