@@ -26,7 +26,6 @@
     <!-- FavIcon -->
     <link rel="icon" type="image/png" href="assets/images/icon.png">
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script src="https://code.tidio.co/hhjfu1aztfpvopinwpbsvucfpl1v2geb.js" async></script>
 </head>
 <body itemscope>
 <main>
@@ -620,7 +619,6 @@
 <script src="homeassets/scripts/revolution/extensions/revolution.extension.video.min.js"></script>
 <script src="homeassets/scripts/revolution/revolution.initialize11.js"></script>
 <!-- LIVE CHAT EMBEDD CODE -->
-<script src="//code.jivosite.com/widget/N4N9issE5G" async></script>
 </body>
 
 <!-- Mirrored from primecapitaltrade.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2022 07:30:38 GMT -->
